@@ -1,0 +1,22 @@
+description: "Testing github pages since 2023"
+title: "Some github pages site"
+
+# GFM will make URLs into links automatically,
+# the default kramdown allows us to use the toc directive
+# markdown: GFM
+markdown: kramdown
+
+remote_theme: hydecorp/hydejack@v9.1.6
+logo: "/assets/images/logo.svg"
+
+  #favicon: /assets/images/favicon.ico
+  #apple_touch_icon: /assets/images/apple-touch-icon.png
+
+
+menu:
+  - title:             a link
+    url:               https://example.com
+
+
+related_posts: none
+
