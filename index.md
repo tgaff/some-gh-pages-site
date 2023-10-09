@@ -1,7 +1,7 @@
 # index page
 
-- [bad link 1 - slash](/slash/slash-page.md)
-- [bad link 2 - no slash](no-slash/no-slash-page.md)
+- [page that prefixes slash for link](/slash/page.md)
+- [page that doesn't prefix slash for link](no-slash/page.md)
 
 text
 
