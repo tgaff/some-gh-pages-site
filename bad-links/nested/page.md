@@ -7,3 +7,6 @@ This page should be at `[ROOT]/bad-links/nested/page.md`
 - [bad link 3 - slash](/bad-links/nested/no-existe.md)
 
 You should see a total of 3 errors for this page in the checks.
+And 1 error in the "unreferenced page".
+
+**total broken links 4**
