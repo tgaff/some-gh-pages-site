@@ -1,4 +1,4 @@
-name: Lychee-actions default setup
+name: markdown links --base fix
 # This tests links using a *local* copy of the site *without* building it
 # That means links need to be accurate before Jekyll builds and the page is deployed
 
@@ -15,3 +15,4 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           fail: true
+          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.rst' --base .
