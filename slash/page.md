@@ -1,6 +1,6 @@
 # index page
 
-- [bad link 1 - slash](/slash/slash-page.md)
+- [good link - slash](/slash/page.md)
+- [bad link 3 - slash](/slash/no-existo.md)
 
-text
 
