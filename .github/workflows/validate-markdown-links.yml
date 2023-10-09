@@ -1,6 +1,6 @@
 name: Validate Markdown Links for PRs
-  # This tests links using a *local* copy of the site *without* building it
-  # That means links need to be accurate before Jekyll builds and the page is deployed
+# This tests links using a *local* copy of the site *without* building it
+# That means links need to be accurate before Jekyll builds and the page is deployed
 
 on:
   pull_request
