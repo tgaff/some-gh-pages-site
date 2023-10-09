@@ -1,0 +1,12 @@
+name: Check links with muffet
+jobs:
+  my-broken-link-checker:
+    name: Check broken links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://tgaff.github.io/some-gh-pages-site
+          cmd_params: "--max-connections=3 --color=always"  # Check just one page
+
