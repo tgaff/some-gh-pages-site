@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # index page
 
 This is here to demonstrate that the default lychee-action ignores links in markdown if they start with slash.  This is referred to as a relative link in the docs but 
