@@ -15,5 +15,5 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           fail: true
-          args: --max-concurrency 8 --remap "(.*).md  https://tgaff.github.io/some-gh-pages-site/$1.html" index.md
+          args: "--max-concurrency 8 --remap \"(.*).md  https://tgaff.github.io/some-gh-pages-site/$1.html\" index.md"
 
