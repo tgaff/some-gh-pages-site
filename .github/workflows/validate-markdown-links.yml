@@ -3,7 +3,7 @@ name: Lychee-actions default setup
 # That means links need to be accurate before Jekyll builds and the page is deployed
 
 on:
-  pull_request
+  deployment_status
 
 jobs:
   linkChecker:
