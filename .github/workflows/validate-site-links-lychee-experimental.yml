@@ -1,0 +1,19 @@
+name: lychee experimental capture groups
+# this tests against the deployed site - using files in this branch
+# its intended for: https://github.com/lycheeverse/remaps/issues/1#issuecomment-1783462273
+
+on:
+  pull_request
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          fail: true
+          args: --max-concurrency 8 --remap "(.*).md  https://tgaff.github.io/some-gh-pages-site/$1.html" index.md
+
